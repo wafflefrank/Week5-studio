@@ -1,0 +1,41 @@
+.dropdown-item {
+    &:hover {
+        background: #077c63c7;
+        transition: 0.5s;
+    }
+}
+
+.material-icons {
+    &:hover {
+        color: #077c63c7;
+        transition: 0.8s;
+    }
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+.sender-card{
+    display: flex;
+    align-items: center;
+    & .sender-img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+}
+mark{
+    color:$success;
+    background-color: #f8f9fa;
+}
+.reply-card{
+    display: flex;
+    align-items: center;
+    & .reply-img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+}   
+
+

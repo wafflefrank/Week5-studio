@@ -1,0 +1,23 @@
+//圖片取代文字(區塊元素)
+@mixin text-hide {
+    text-indent: 110%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+// 文字在圖片中央
+@mixin position-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+// 首頁導覽列的hover效果(線條滑動)
+@mixin nav-hover{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 3px;
+    margin: 5px 0;
+    background-color: #fff;
+    transition: width 0.5s;
+  }  

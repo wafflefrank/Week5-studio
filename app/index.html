@@ -1,0 +1,314 @@
+---
+title: Boostrap Index
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+<!-- 右半邊 all -->
+<div class="container p-32">
+  <!-- d -->
+  <nav class="d-flex align-items-center justify-content-between">
+    <div class="d-flex align-items-center">
+      <h1 class="fs-4 me-5">Assignment</h1>
+      <div class="dropdown d-flex">
+        <span class="text-dark fs-6 me-2">All Courses</span>
+        <div class=" text-success  material-icons cursor-pointer" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+          aria-expanded="false">expand_more
+        </div>
+        <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton2">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="d-flex">
+      <a href="#" class="material-icons me-26">
+        search
+      </a>
+      <a href="#" class="material-icons">
+        notifications_active
+      </a>
+    </div>
+  </nav>
+  <!--content-->
+  <div class="wrap mt-44">
+    <div class="row">
+      <div class="col-md-4 col-12">
+        <div class="dropup d-flex">
+          <span class="text-dark fs-6 me-2 mb-6px">All (4)</span>
+          <div class=" text-success  material-icons cursor-pointer" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+            aria-expanded="false">expand_more
+          </div>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+            <li><a class="dropdown-item" href="#">All (4)</a></li>
+          </ul>
+        </div>
+        <ul class="list-group rounded-1">
+          <li class="list-group-item
+            list-group-item-action
+            bg-light border-gray
+            p-3 cursor-pointer
+            " aria-current="true">
+            <div class="row">
+              <div class="col-8 ps-3 pe-0">
+                <h3 class="fs-8 lh-lg mb-1">
+                  Chapter Assignment 2
+                </h3>
+                <h4 class="fs-6 lh-base fw-bold">
+                  Please check this file…
+                </h4>
+              </div>
+
+              <div class="col-4 text-end ">
+                <span class="fs-8 lh-lg text-dark">
+                  4 hrs ago
+                </span>
+                <span class="fs-8 lh-lg text-secondary">
+                  Emily Wang
+                </span>
+              </div>
+            </div>
+          </li>
+
+          <li class="list-group-item
+            list-group-item-action
+            border-gray
+            p-3 cursor-pointer" aria-current="true">
+            <div class="row">
+              <div class="col-8 ps-3 pe-0">
+                <h3 class="fs-8 lh-lg mb-1">
+                  Chapter Assignment 1
+                </h3>
+                <h4 class="fs-6 lh-base fw-bold">
+                  My Homework
+                </h4>
+              </div>
+
+              <div class="col-4 text-end ">
+                <span class="fs-8 lh-lg text-dark">
+                  12 hrs ago
+                </span>
+                <span class="fs-8 lh-lg text-secondary">
+                  David Xu
+                </span>
+              </div>
+            </div>
+          </li>
+
+          <li class="list-group-item
+            list-group-item-action
+            border-gray
+            p-3 cursor-pointer" aria-current=" true">
+            <div class="row">
+              <div class="col-8 ps-3 pe-0">
+                <h3 class="fs-8 lh-lg mb-1">
+                  Final Assignment
+                </h3>
+                <h4 class="fs-6 lh-base fw-bold">
+                  Have a problem with this…
+                </h4>
+              </div>
+
+              <div class="col-4 text-end ">
+                <span class="fs-8 lh-lg text-dark">
+                  18 hrs ago
+                </span>
+                <span class="fs-8 lh-lg text-secondary">
+                  Tony Wei
+                </span>
+              </div>
+            </div>
+          </li>
+
+          <li class="list-group-item
+            list-group-item-action
+            border-gray
+            p-3 cursor-pointer" aria-current="true">
+            <div class="row">
+              <div class="col-8 ps-3 pe-0">
+                <h3 class="fs-8 lh-lg mb-1">
+                  Final Assignment
+                </h3>
+                <h4 class="fs-6 lh-base fw-bold">
+                  Did I do it right?
+                </h4>
+              </div>
+
+              <div class="col-4 text-end ">
+                <span class="fs-8 lh-lg text-dark">
+                  19 hrs ago
+                </span>
+                <span class="fs-8 lh-lg text-secondary">
+                  Christina Lin
+                </span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-8 col-12">
+        <span class="fs-8 lh-lg text-secondary
+        d-block mb-6px text-end">
+          2 comments
+        </span>
+        <!-- message -->
+        <div class="card">
+          <div class="card-header
+        py-3
+        d-flex
+        justify-content-between
+        align-items-center">
+            <div>
+              <h3 class="fs-8 lh-lg mb-1">
+                Chapter Assignment 2 / HTML&amp;CSS
+              </h3>
+              <h4 class="fs-6 lh-base fw-bold">
+                Please check this file for me, thanks!
+              </h4>
+            </div>
+
+            <a href="#" class="material-icons">
+              more_vert
+            </a>
+          </div>
+          <div class="card-body">
+            <!-- 寄件者 -->
+            <div class="pb-4">
+              <div class="sender-card">
+                <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/emilywang.jpeg?raw=true"
+                  alt="寄件者頭像" class="sender-img me-2">
+                <div>
+                  <p class="mb-1">
+                    Emily Wang
+                  </p>
+                  <span class="fs-7 text-secondary">
+                    10:38 AM (4 hours ago)
+                  </span>
+                </div>
+              </div>
+
+              <div class="ms-5 py-3
+    border-bottom border-gray">
+                <p class="fs-7 fw-normal">
+                  Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the
+                  following code the height of the <mark>div</mark> is bigger than the height of the <mark> img</mark> ?
+                  There is a gap below the image, but it doesn’t seems to be a padding/margin.<br>
+                  What is the gap or extra space below image?
+                </p>
+
+                <a href="#" class="btn btn-light border-gray
+        mt-4 py-2 ps-3 pe-4
+        file-download" download="HW-2-David.zip">
+                  <span class="fs-6 lh-base fw-bold d-flex">
+                    <i class="material-icons me-2">
+                      attach_file
+                    </i>
+                    HW-2-David.zip
+                  </span>
+                </a>
+              </div>
+            </div>
+            <!-- 收件者 -->
+            <div class="js_reply_content">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="reply-card">
+                  <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true" alt="收件者頭像" class="reply-img me-2"> 
+                  <div>
+                    <p class="mb-1">
+                      Andy Chen (You)
+                    </p>
+                    <span class="fs-7 text-secondary"> 
+                      13:24 AM (1 hours ago)
+                    </span>
+                  </div>
+                </div>
+
+                <div>
+                  <a href="#" class="material-icons me-4">
+                    star_outline
+                  </a>
+                  <a href="#" class="material-icons">
+                    edit
+                  </a>
+                </div>
+              </div>
+
+              <div class="ms-5 pt-3">
+                <p class="fs-7 fw-normal ">
+                  Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.
+                </p>
+
+                <p class="py-4 fw-normal">
+                  You can:
+                </p>
+
+                <ul class="ms-4">
+                  <li>
+                    • adjust the <mark>vertical-align</mark> of the image to position it elsewhere (e.g. the <mark>middle</mark> ) or
+                  </li>
+                  <li>
+                    • change the <mark>display</mark> so it isn’t inline.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- 動畫 -->
+            <div id="editor" >This is some sample content.</div>
+
+          </div>
+        </div>
+        <!-- 下方按鈕 -->
+        <div class=" d-flex justify-content-between align-items-center mt-4">
+          <div class="d-flex">
+            <a href="#">
+              <i class="material-icons">
+                chevron_left
+              </i>
+            </a>
+            <a href="#">
+              <i class="material-icons">
+                chevron_right
+              </i>
+            </a>
+          </div>
+          <div>
+            <button class="btn btn-outline-success px-32 py-2 me-3">
+              Mark as read
+            </button>
+            <button class="js_message_reply_btn
+              btn btn-success py-2 px-32">
+              Reply
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-info">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div> -->

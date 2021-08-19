@@ -1,0 +1,48 @@
+.navLeft {
+  width: 296px;
+  min-height: 100vh;
+}
+.logo {
+  @include text-hide;
+  background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/8d1ef3b63951b7f749edd130ff66e4d4856a3df2/week5/logo-ANSWER.svg")
+    no-repeat;
+  background-position: center center;
+  width: 151px;
+  height: 40px;
+}
+.nav-item{
+  cursor: pointer;
+  &:hover {
+    background: darken($light, 3);
+    border-left: solid 6px ;
+    border-color: $success;
+    a {
+      transform: scale(1.2);
+      color: $success;
+      transition: 0.6s;
+    }
+  }
+}
+.nav-link {
+  color: $dark;
+  width: 100%;
+  i {
+    margin-right: 16px;
+  }
+}
+.active.link-Style {
+  color: $success;
+  border-left: solid 6px;
+  border-color: $success;
+  i {
+    color: $success;
+  }
+}
+.user-photo{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+.user-name{
+  margin-bottom: 4px;
+}

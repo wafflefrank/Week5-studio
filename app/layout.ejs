@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    <%- title %>
+  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;1,300;1,400&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body class="d-flex">
+
+
+  <nav class="navLeft bg-light  flex-column  py-32 d-flex justify-content-between">
+
+    <div>
+      <h1 class="logo ms-32 mb-24">
+        <a href="#">ANSWER</a>
+      </h1>
+      <ul class="nav flex-column">
+        <li class="nav-item d-flex align-items-center mb-1">
+          <a class="nav-link link-Style ps-32 " data-bs-toggle="tab" aria-current="page" href="#"><i
+              class="far fa-address-book fs-4"></i>Active</a>
+        </li>
+        <li class="nav-item d-flex align-items-center mb-1">
+          <a class="nav-link link-Style ps-32 active" data-bs-toggle="tab" aria-current="page" href="#"><i
+              class="fab fa-airbnb fs-4"></i>Airbnb</a>
+        </li>
+        <li class="nav-item d-flex align-items-center mb-1">
+          <a class="nav-link link-Style ps-32" data-bs-toggle="tab" aria-current="page" href="#"><i
+              class="fab fa-codepen fs-4"></i>CodePen</a>
+        </li>
+        <li class="nav-item d-flex align-items-center mb-1">
+          <a class="nav-link link-Style ps-32" data-bs-toggle="tab" aria-current="page" href="#"><i
+              class="fab fa-battle-net fs-4"></i>Battle</a>
+        </li>
+        <li class="nav-item d-flex align-items-center mb-1">
+          <a class="nav-link link-Style ps-32" data-bs-toggle="tab" aria-current="page" href="#"><i
+              class="fab fa-cloudversify fs-4"></i>Cloud</a>
+        </li>
+        <li class="nav-item d-flex align-items-center mb-1">
+          <a class="nav-link link-Style ps-32" data-bs-toggle="tab" aria-current="page" href="#"><i
+              class="far fa-envelope fs-4"></i>Mail</a>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="user-info d-flex ms-32 align-items-md-center flex-md-row flex-column">
+      <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true" alt="#" class="user-photo me-md-3 ">
+      <div>
+        <p class="user-name mt-md-0 mt-3">Andy Chen</p>
+        <a href="mailto:andy0401@mail.com" class="fs-7">andy0401@mail.com</a>
+      </div>
+    </div>
+  </nav>
+  <%- contents %>
+  <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+  <script src="https://cdn.ckeditor.com/ckeditor5/29.0.0/classic/ckeditor.js"></script>
+  <script>
+    ClassicEditor
+      .create( document.querySelector( '#editor' ) )
+      .then( editor => {
+      console.log( editor );
+    } )
+      .catch( error => {
+      console.error( error );
+    } );
+</script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+
+</body>
+
+</html>

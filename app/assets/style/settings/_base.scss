@@ -1,0 +1,26 @@
+body {
+  font-family: "Lato", "Roboto Mono", monospace;
+  font-weight: 400;
+}
+a {
+  color: $dark;
+  display: block;
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+ul , li{
+  list-style: none;
+  padding: 0;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p{
+  font-weight: 700;
+  margin-bottom: 0;
+  color: $dark;
+}
+i {
+  vertical-align: middle;
+}
